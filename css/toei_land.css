@@ -1,20 +1,20 @@
 @font-face {
     font-family: DigiCode_Bold;
-    src: url("../../media/fonts/Digicode Bold.ttf");
+    src: url("../media/fonts/Digicode Bold.ttf");
   }
   
   @font-face {
     font-family: KarmaFuture;
-    src: url("../../media/fonts/KarmaFuture.ttf");
+    src: url("../media/fonts/KarmaFuture.ttf");
   }
   
   @font-face {
     font-family: November;
-    src: url("../../media/fonts/November.ttf");
+    src: url("../media/fonts/November.ttf");
   }
 
 body{
-    background-image: url("../../media/images/Toei_Animation_logo.svg.png");
+    background-image: url("../media/images/Toei_Animation_logo.svg.png");
     text-align: center;
 }
 h1{
