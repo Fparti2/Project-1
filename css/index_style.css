@@ -1,0 +1,88 @@
+@font-face {
+  font-family: DigiCode_Bold;
+  src: url("../../media/fonts/Digicode Bold.ttf");
+}
+
+@font-face {
+  font-family: KarmaFuture;
+  src: url("../../media/fonts/KarmaFuture.ttf");
+}
+
+@font-face {
+  font-family: November;
+  src: url("../../media/fonts/November.ttf");
+}
+
+body{
+  background-color: rgba(16, 16, 58, 0.555);
+  background-image: url("../../media/images/Digivice_tri.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  font-family: "November";
+}
+img{
+  display: block;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  color: black;
+  font-size: larger;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+p{
+  color: black;
+background-color: antiquewhite;
+  font-size: larger;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  border: groove 4px black;
+}
+
+/* credit: https://www.30secondsofcode.org/css/s/button-hover-shrink-animation/ */
+.button-shrink {
+    color: black;
+  
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    font-family: "November";
+  }
+  
+  .button-shrink:hover {
+    transform: scale(0.01);
+  }
+
+div.digivice{
+  background-image: url("../media/images/screen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 36%;
+  margin-right: 35.5%;
+  margin-top: 12.5%;
+  margin-bottom: 30%;
+  
+}
+button{
+  color: black;
+  
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 0 16px;
+  cursor: pointer;
+  font-family: "November";
+}  
+video{
+  display: block;
+  width:100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

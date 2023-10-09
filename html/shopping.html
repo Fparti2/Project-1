@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="../css/shopping_style.css">
+</head>
+<body>
+
+<h1>Welcome to the Shopping District!</h1>
+
+<img class="prof" src="../../media/images/prof_agu.png" alt="">
+<h3>Here you can grab your credit card or your mom's credit card (we don't care) and you can buy our DigiProducts! Remember to collect them all and if you miss the specials they'll be gone forever!</h3>
+
+
+<br><br><br><br><br>
+<a href="../html/hub.html">
+        <button>
+Return to the File Island!
+    </button>
+</a>
+
+<br><img src="../../media/images/PremiumBandai.webp" alt="">
+<h4>Our Premium Store</h4>
+<p>Here you can get the exclusive Japanese releases!</p>
+<a href="https://p-bandai.com/us/search/?character=03-042">Luxury Needs!</a>
+
+<br><img src="../../media/images/bn.png" alt="">
+<h4>Digimon Video Games!</h4>
+<p>From our glorious owner Bandai Namco comes the latest Digimon Video Games!</p>
+<a href="https://store.bandainamcoent.com/digimon/">DigiGames!</a>
+
+<br><img src="../../media/images/digi.webp" alt="">
+<h4>Digimon Cards!</h4>
+<p>Here is a list of all the Digimon cards you have to collect!</p>
+<a href="https://www.bandai-tcg-plus.com/card?offset=0">Cards! Cards! Card!</a>
+<p>Don't forget to download our app because there is an app for everything now!</p>
+<a href="https://lp.bandai-tcg-plus.com/en/">Bandai TCG App!</a>
+
+<br><img src="../../media/images/BBTS-Logo-Header4-2xize.png" alt="">
+<h4>Digimon Models!</h4>
+<p>Need to feel some more plastic in your life? Collect models of our ever growing Digimon!</p>
+<a href="https://www.bigbadtoystore.com/search?Brand=590">BIGBADTOYSTORE for your model needs!</a>
+
+<br><img src="../../media/images/Digivicemon-Main-Logo.png" alt="">
+<h4>Misc!</h4>
+<p>Here you can find a multitude of our collectables!</p>
+<a href="https://digivicemon.com/">Digivicemon!</a>
+
+<br><img id="gear"  src="../media/images/200px-Black_Gear_Adventure_Game.png" alt="You found a Black Gear!">
+
+<br><img src="../../media/images/amazon.png" alt="">
+<h4>If none of those peak your interest don't forget about our ruler of Consumerism!</h4>
+<a href="https://www.amazon.com/s?k=digimon&crid=3M5I7UAKWWGH4&sprefix=digimon%2Caps%2C94&ref=nb_sb_noss_1">AMAZON!</a>
+
+<br><a href="../html/hub.html">
+  <button>
+Return to the File Island!
+</button>
+</a>
+
+
+<div id="myModal" class="modal">
+
+    <span class="close">&times;</span>
+  
+    <img class="modal-content" id="img01" src="../media/images/200px-Black_Gear_Adventure_Game.png">
+  
+    
+    <div id="caption">
+        <p>You found a Black Gear!
+        <br>There is a virus spreading across the web and it has left these around the place! Rumor is that if you find all of them you will have the code that can defeat it!
+        <br>
+        <br>Here is code number 5!
+        <br>
+        <br><span class="digicode">ENTER a fallen world
+            </span>
+        <br> Translation:
+        <br>ENTER a fallen world
+        
+    </p></div>
+  </div>
+
+  <br><audio id="myaudio" controls autoplay loop src="../../media/audio/12) Item Shop.mp3"></audio>
+<script>
+
+var modal = document.getElementById("myModal");
+
+var img = document.getElementById("gear");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML;
+}
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+var audio = document.getElementById("myaudio");
+  audio.volume = 0.2;
+</script>
+</body>
+</html>

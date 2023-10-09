@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUB</title>
+    <link rel="stylesheet" href="../css/hub_style.css">
+</head>
+<body>
+    <img src="../media/images/happy_agu.png" class="Agumon">
+
+    <p class="intro">Here is the hub world select your destination with your partner digimon, Agumon!</p>
+    <div class="map">
+    <img src="../../media/images/File_island.png" alt="File_island">
+    <a href="../html/forum.html"> <button class="forum">
+    Forum Space</button></a>
+    <a href="../html/entertainment.html"><button class="entertainment">
+    Entertainment District</button></a>
+    <a href="../html/shopping.html"><button class="shopping">
+    Shopping District</button></a>
+    <a href="../../p5js/final/final_p5js.html""><button class="final">
+    Dark Web</button></a>
+    <a href="../html/toei_land.html"><button class ="toei">
+    Toei Land</button></a>
+
+</div>
+<img id="gear" class="gears" src="../media/images/200px-Black_Gear_Adventure_Game.png" alt="You found a Black Gear!">
+
+
+<div id="myModal" class="modal">
+
+    <span class="close">&times;</span>
+  
+    <img class="modal-content" id="img01" src="../media/images/200px-Black_Gear_Adventure_Game.png">
+  
+    
+    <div id="caption">
+        <p>You found a Black Gear!
+        <br>There is a virus spreading across the web and it has left these around the place! Rumor is that if you find all of them you will have the code that can defeat it!
+        <br>
+        <br>Here is code number 1!
+        <br>
+        <br><span class="digicode">UP floating invisibly among the stars and its manmade sentinels
+           <br> UP where our dreams and destruction equally lie
+            </span>
+        <br> Translation:
+        <br>UP floating invisibly among the stars and its manmade sentinels
+        <br>UP where our dreams and destruction equally lie
+        
+    </p></div>
+  </div>
+
+<p class="clickme">Click The Black Gear Above!</p>
+<br><audio id="myaudio" controls autoplay loop src="../../media/audio/48) File City.mp3"></audio>
+
+<script>
+
+var modal = document.getElementById("myModal");
+
+var img = document.getElementById("gear");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML;
+}
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+var audio = document.getElementById("myaudio");
+  audio.volume = 0.2;
+</script>
+</body>
+</html>

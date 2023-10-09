@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="../css/forum_style.css">
+</head>
+<body>
+  <h1>Wel<span class="digicode">om</span>ce to the For<span class="digicode">um Sp</span>ace!</h1>
+<img src="../../media/images/Toyagumon2.png" class="toy">
+    <h3>Here nor<span class="digicode">mall</span>y you would be able to talk to your friends and share the latest Di<span class="digicode">gi</span>News that you've heard but <span class="digicode">un</span>fortunatly the forum is currently closed to non-auth<span class="digicode">oriz</span>ed users as it has been taken over by troll<span class="digicode">s </span>and bots. We aren't q<span class="digicode">uite</span> sure how they are veri<span class="digicode">fied</span> but rest assured we shall remove them as soon as we can! Sorry for the inco<span class="digicode">nveni</span>ence at this time.</h3>
+    <table>
+        <th>User Name</th>
+        <th>Verification Check</th>
+        <th>Message</th>
+    </table>
+    <iframe src="../p5js/forum/forum_p5js.html" width="100%" height="380px"   frameborder="0"></iframe>
+
+
+   <img id="gear"  src="../media/images/200px-Black_Gear_Adventure_Game.png" alt="You found a Black Gear!"> 
+
+
+    <br><a href="../html/hub.html">
+        <button>
+Return to the File Island!
+    </button>
+</a>
+
+
+
+
+<div id="myModal" class="modal">
+
+    <span class="close">&times;</span>
+  
+    <img class="modal-content" id="img01" src="../media/images/200px-Black_Gear_Adventure_Game.png">
+  
+    
+    <div id="caption">
+        <p>You found a Black Gear!
+        <br>There is a virus spreading across the web and it has left these around the place! Rumor is that if you find all of them you will have the code that can defeat it!
+        <br>
+        <br>Here is code number 3!
+        <br>
+        <br><span class="digicode">LEFT and RIGHT it spreads to all
+           <br>LEFT and RIGHT the land begins to shake and smoke
+            </span>
+        <br> Translation:
+        <br>LEFT and RIGHT it spreads to all
+        <br>LEFT and RIGHT the land begins to shake and smoke
+        
+    </p></div>
+  </div>
+  <br><audio id="myaudio" controls autoplay loop src="../../media/audio/08) Ogremon.mp3"></audio>
+
+<script>
+
+var modal = document.getElementById("myModal");
+
+var img = document.getElementById("gear");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML;
+}
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+var audio = document.getElementById("myaudio");
+  audio.volume = 0.2;
+</script>
+</body>
+</html>

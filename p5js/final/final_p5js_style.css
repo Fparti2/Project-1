@@ -1,0 +1,57 @@
+@font-face {
+  font-family: DigiCode_Bold;
+  src: url("../../media/fonts/Digicode Bold.ttf");
+}
+
+@font-face {
+  font-family: KarmaFuture;
+  src: url("../../media/fonts/KarmaFuture.ttf");
+}
+
+@font-face {
+  font-family: November;
+  src: url("../../media/fonts/November.ttf");
+}
+
+body{
+  background-image: url("../../media/images/dark_web.jpg");
+  background-size: cover;
+  text-align: center;
+}
+h1{
+  color: beige;
+  font-family: "KarmaFuture";
+}
+h3{
+  color: beige;
+  background-color: black;
+  font-family: "November";
+  border: dashed 2px white;
+  margin-left: 5%;
+  margin-right: 10%;
+
+}
+.agumon{
+  float:right;
+  margin-top: -5%;
+  margin-right: 5%;
+}
+
+.return button{
+  background-color: #bbb;
+  color: rgb(0, 0, 0);
+  border: solid 2px black;
+  border-radius: 1px;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
