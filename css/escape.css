@@ -1,19 +1,19 @@
 @font-face {
     font-family: DigiCode_Bold;
-    src: url("../../media/fonts/Digicode Bold.ttf");
+    src: url("../media/fonts/Digicode Bold.ttf");
   }
   
   @font-face {
     font-family: KarmaFuture;
-    src: url("../../media/fonts/KarmaFuture.ttf");
+    src: url("../media/fonts/KarmaFuture.ttf");
   }
   
   @font-face {
     font-family: November;
-    src: url("../../media/fonts/November.ttf");
+    src: url("../media/fonts/November.ttf");
   }
   body{
-    background-image: url("../../media/images/xp.jpg");
+    background-image: url("../media/images/xp.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(36, 73, 197);

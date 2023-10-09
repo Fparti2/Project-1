@@ -10,12 +10,12 @@
 
 @font-face {
   font-family: November;
-  src: url("../../../media/fonts/November.ttf");
+  src: url("../media/fonts/November.ttf");
 }
 
 body{
   text-align: center;
-  background-image: url("../../../media/images/forest.jpg");
+  background-image: url("../media/images/forest.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
