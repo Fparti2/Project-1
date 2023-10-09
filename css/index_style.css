@@ -1,21 +1,21 @@
 @font-face {
   font-family: DigiCode_Bold;
-  src: url("../../media/fonts/Digicode Bold.ttf");
+  src: url("../media/fonts/Digicode Bold.ttf");
 }
 
 @font-face {
   font-family: KarmaFuture;
-  src: url("../../media/fonts/KarmaFuture.ttf");
+  src: url("../media/fonts/KarmaFuture.ttf");
 }
 
 @font-face {
   font-family: November;
-  src: url("../../media/fonts/November.ttf");
+  src: url("../media/fonts/November.ttf");
 }
 
 body{
   background-color: rgba(16, 16, 58, 0.555);
-  background-image: url("../../media/images/Digivice_tri.webp");
+  background-image: url("../media/images/Digivice_tri.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
