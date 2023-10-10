@@ -27,7 +27,7 @@ function preload(){
 }
 function setup() {
   createCanvas(400, 400);
-  redigitize = createA('../../../html/escape.html', 'Return to Reality')
+  redigitize = createA('../html/escape.html', 'Return to Reality')
   redigitize.hide()
 }
 
@@ -40,7 +40,7 @@ tint(555, 200)
   tint(720,400)
   image(y2k1, 200, 300)
 
-
+//bad ending with out code
   if (spread == 50){
     noLoop()
     bsd.resize(400,400)
@@ -51,6 +51,8 @@ tint(555, 200)
     laugh.setVolume(0.5)
 
       }
+
+//checker that leads to end - kept ominous
       if ((up_checker==2) && (down_checker==2) && (l_checker==2) && (r_checker==2) && (a_checker==1) && (b_checker==1) && (ent_checker==1)){
         noLoop()
         fill("black")
@@ -62,6 +64,8 @@ tint(555, 200)
   translate(width / 2, height / 2);
   translate(p5.Vector.fromAngle(millis() / 1000, 40))
 
+
+//causes spreading event
 if(keyIsPressed){
 spread += 1
   for (let i=0; i < 200; i++){
@@ -77,7 +81,7 @@ spread += 1
 
 
 }
-
+//funtion to build for key code protection
 function keyReleased(){
 if (keyCode === UP_ARROW){
   up_checker += 1

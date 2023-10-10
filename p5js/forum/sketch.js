@@ -26,6 +26,7 @@ var checkmark;
 
 function preload(){
 
+//icon list  
 gob1 = loadImage("../../media/images/35-goburimon-icon.png")
 gob2 = loadImage("../../media/images/94-sharmamon-icon.png")
 gob3 = loadImage("../../media/images/100-snowgoburimon-icon.png")
@@ -54,10 +55,12 @@ icon7 = random(icons)
 
 function setup() {
   createCanvas(windowWidth, 350);
+
+//phrases list  
 phrases = ['Fake News!', "I'm not a racist but Aguemon don't belong in here!", 'With all due respect F@&# YOU!', 'Go suck a Digitamamon!', 'Um..., actually you are wrong!','LOL look at this loser!','You guys ever wonder if we are wasting our lives on here?', 'kek', 'What are you even doing here!?', 'Your a wast of spce', 'kill yourself', 'ART151!', 'THE END IS NEAR!!!!', 'Vaccines kill innocent Viruses!', "I'm better than you!"];
 
 
-
+//picks random number every so often to keep it changing but stops draws full on constant update
 setInterval (function(){
 
   
@@ -85,7 +88,7 @@ random_color5 = random(250)
 random_color6 = random(250)
 
 
-}, 4000);
+}, 5000);
 
 
 }
@@ -94,7 +97,7 @@ function draw() {
   background(220);
 
 
-
+//builds forum grid
 push()
 strokeWeight(5.0);
 fill(random_color1,random_color2,random_color3)
@@ -166,6 +169,8 @@ pop()
 
 text(phrase7, 320, 330)
 
+
+//displays random images and text
 image(icon1, 35, 5)
 icon1.resize(40, 40)
 image(icon2, 35, 55)

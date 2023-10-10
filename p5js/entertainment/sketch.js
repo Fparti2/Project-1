@@ -39,11 +39,13 @@ function canvasPressed(){
 }
 function draw() {
   background(220);
-
+//loads in the images and makes them initially invisible to set the stage
 ogremon.size(0,0)
 betamon.size(0,0)
 skullgreymon.size(0,0)
 
+
+//used to adjust health and mana bar
 if(keyIsDown(65)){
   P_health = P_health-5
 }
@@ -59,6 +61,7 @@ if(keyIsDown(66) && Mana>0){
 
 image(colosseum,0,0,600,600)
 
+//instruction text, A and B chosen to feel more game like and stop screen scrolling during the fight
 push()
 rect(390,480, 190, 50)
 textSize(20)
@@ -67,6 +70,7 @@ text('Press A to attack!', 400, 500)
 text('Press B to heal!', 400, 520)
 pop()
 
+//draw health and mana bars
 push()    
   fill("red")
   rect(0,10, P_health , 20)
@@ -94,7 +98,9 @@ push()
   fill("blue")
   rect(0,35, Mana, 20)
 pop()   
-  
+
+
+//draw view counter
 push()    
   fill("white")
   stroke("white")
@@ -115,7 +121,7 @@ text(random_num, 390, 575)
 pop()
 
 
-  
+ //first monster 
 if(monster === 0){ 
   betamon.position(208, 240)
   betamon.size(200,200)
@@ -140,7 +146,7 @@ if(monster === 0){
 
 } 
   
-
+//second monster
 if(monster == 1){ 
   if(keyIsDown(65)){
   health1 = health1 - 5
@@ -164,6 +170,7 @@ if(monster == 1){
 }
 }
 
+//boss
 if(monster == 2){ 
   if(keyIsDown(65)){
   health2 = health2 - 5
