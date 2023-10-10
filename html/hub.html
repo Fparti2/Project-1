@@ -8,8 +8,10 @@
 </head>
 <body>
     <img src="../media/images/happy_agu.png" class="Agumon">
-
+<!-- try to make the user feel like they are being lead with Agumon on the web journey -->
     <p class="intro">Here is the hub world, File Island. Please select your destination with your partner digimon, Agumon! I'm Agumon btw! It's nice to meet you!</p>
+
+    <!-- navigation map -->
     <div class="map">
     <img src="../media/images/File_island.png" alt="File_island">
     <a href="../html/forum.html"> <button class="forum">
@@ -24,6 +26,8 @@
     Toei Land</button></a>
 
 </div>
+<!-- made to give clues put not be too direct -->
+
 <img id="gear" class="gears" src="../media/images/200px-Black_Gear_Adventure_Game.png" alt="You found a Black Gear!">
 
 
@@ -54,7 +58,7 @@
 <br><audio id="myaudio" controls autoplay loop src="../media/audio/48) File City.mp3"></audio>
 
 <script>
-
+//needed for modal display - on everything but final, index, and escape
 var modal = document.getElementById("myModal");
 
 var img = document.getElementById("gear");
@@ -73,7 +77,7 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
-
+//used to make volume not so loud
 var audio = document.getElementById("myaudio");
   audio.volume = 0.2;
 </script>
