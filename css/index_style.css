@@ -42,7 +42,7 @@ background-color: antiquewhite;
   -webkit-text-stroke-color: black;
   border: groove 4px black;
 }
-
+/*found this nifty thing when I wanted a button that looked like it refuses to be clicked/*
 /* credit: https://www.30secondsofcode.org/css/s/button-hover-shrink-animation/ */
 .button-shrink {
     color: black;
@@ -59,6 +59,18 @@ background-color: antiquewhite;
     transform: scale(0.01);
   }
 
+  button{
+    color: black;
+    
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 0 16px;
+    cursor: pointer;
+    font-family: "November";
+  }  
+
+
+/* trying to center the video in the digivice it somewhat works */
 div.digivice{
   background-image: url("../media/images/screen.jpg");
   background-repeat: no-repeat;
@@ -70,15 +82,7 @@ div.digivice{
   margin-bottom: 30%;
   
 }
-button{
-  color: black;
-  
-  border: 2px solid black;
-  border-radius: 4px;
-  padding: 0 16px;
-  cursor: pointer;
-  font-family: "November";
-}  
+
 video{
   display: block;
   width:100%;
@@ -88,3 +92,5 @@ video{
   padding-top: 12%;
   padding-bottom: 12%;
 }
+
+

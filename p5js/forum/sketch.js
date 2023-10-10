@@ -88,7 +88,7 @@ random_color5 = random(250)
 random_color6 = random(250)
 
 
-}, 5000);
+}, 4000);
 
 
 }
