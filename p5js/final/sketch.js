@@ -27,7 +27,7 @@ function preload(){
 }
 function setup() {
   createCanvas(400, 400);
-  redigitize = createA('../../html/escape.html', 'Return to Reality')
+  redigitize = createA('https://fparti2.github.io/Project-1/html/escape.html', 'Return to Reality')
   redigitize.hide()
 }
 
